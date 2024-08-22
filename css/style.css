@@ -25,8 +25,6 @@ body {
     height: 10vh;
     width: 100%;
     justify-content: flex-start;
-    align-items: flex-end;
-    flex-direction: row;
 }
 
 #indeximg{
@@ -96,26 +94,18 @@ hr{
 
 #searchInput{   
     background-color: lightgrey;
-    border-radius: 10px;
+    border-radius: 14px;
     opacity: 50%;
     height: 50px;
-    width: 250px;
+    width: 300px;
+    margin-left: 20px;
 }
 
-#navhome{
-    width: 100%;
-    height: 20vh;
-    background-color: rgb(17, 17, 125);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-}
 
-#mapa {
+iframe{
     display: flex;
+    height: 85vh;
     width: 100%;
-    height: 80vh;
 }
 
 /*** SEPARAÇÃO ***/
@@ -137,12 +127,12 @@ nav .menu a{
 
 nav .menu a:hover{
     transition: 0.3s;
-    background-color: rgb(64, 212, 242);
+    background-color: rgb(32, 17, 166);
 }
 
 nav{
     width: 100%;
-    height: 20vh;
+    height: 15vh;
     background-color:rgb(17, 17, 125) ;
     display: flex;
     align-items: center;
@@ -158,6 +148,10 @@ nav .menu{
 nav img{
     width: 100px;
     margin-left: 1%;
+}
+
+nav a{
+    color: rgb(0, 217, 255);
 }
 
 .chat-column{
