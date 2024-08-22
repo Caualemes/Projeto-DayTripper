@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    height: 110vh;
+    height: 100vh;
     width: 100%;
     background: rgb(4,5,65);
     background: linear-gradient(180deg, rgba(4,5,65,1) 0%, rgba(15,13,172,1) 46%, rgba(205,14,191,1) 100%);
@@ -60,6 +60,8 @@ h1 {
 form {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    position: fixed;
     background: rgb(0,0,0);
     background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(75,18,144,1) 38%, rgba(125,50,255,1) 100%);
     padding: 50px 100px;
@@ -113,7 +115,7 @@ hr{
 #mapa {
     display: flex;
     width: 100%;
-    height: 90vh;
+    height: 80vh;
 }
 
 /*** SEPARAÇÃO ***/
@@ -135,7 +137,7 @@ nav .menu a{
 
 nav .menu a:hover{
     transition: 0.3s;
-    background-color: aqua;
+    background-color: rgb(64, 212, 242);
 }
 
 nav{
@@ -185,7 +187,8 @@ nav img{
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
+    margin-top: 9%;
 }
 
 .chat-display{
