@@ -54,7 +54,7 @@ h1 {
     color: white;
     text-align: center;
 }
-form {
+.login-container form {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -69,7 +69,7 @@ label {
     margin: 5px 0;
 }
 
-input[type="text"], input[type="password"], input[type="radio"] {
+.login-container input[type="text"], input[type="password"], input[type="radio"] {
     margin: 5px 0;
     border-radius: 5px;
     border: 2px solid white;
@@ -108,12 +108,6 @@ iframe{
 }
 
 /*** SEPARAÇÃO ***/
-
-span{
-    padding: 2rem;
-    font-size: 1.3rem;
-}
-
 .chat-container{
     display: flex;
 }
@@ -167,6 +161,7 @@ nav a{
     align-items: center;
     margin-top: 1rem;
     margin-left: 1rem;
+    gap: .7rem;
 }
 
 .chat-evento-texto{
@@ -175,6 +170,7 @@ nav a{
     flex-wrap: wrap;
     text-align: center;
 }
+
 
 .chat-display-container{
     width: 100%;
@@ -190,8 +186,41 @@ nav a{
     rgba(0,0,0,1) 15%, rgba(131,127,241,1) 100%);
     width: 60%;
     height: 70vh;
+    border: 1px solid white;
     border-radius: 30px;
     position:absolute;
-    margin-bottom: 15px;
-    margin-left: 140px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.insert-chat{
+    background-color: #423773;
+    width: 100%;
+    height: 10vh;
+    border: 1px solid lightcyan;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.insert-chat form{
+    width: 70%;
+    display: flex;
+    gap: 1rem;
+}
+
+.insert-chat input{
+    background-color: #423773;
+    min-width: 100%;
+    height: 5vh;
+    margin-left: 1rem;
+    border-radius: 15px;
+    color: white;
+}
+
+.insert-chat button{
+    background-color: #423773;
+    color: white;
+    border-radius: 15px;
+    
 }
