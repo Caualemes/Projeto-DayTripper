@@ -283,3 +283,10 @@ nav a{
     text-decoration: none;
 }
 
+#integrantes {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+}
+
